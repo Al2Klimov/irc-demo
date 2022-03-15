@@ -1,0 +1,8 @@
+---
+version: '3'
+services:
+  ngircd:
+    build: .
+    ports:
+      - 6667:6667
+      - 6697:6697
